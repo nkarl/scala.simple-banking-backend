@@ -1,5 +1,6 @@
 import java.util.Scanner
-import engine.menu._
+import engine.{Menu}
 
 @main def hello: Unit = 
-  engine.menu.mockCLI
+  Menu.mockCLI
+  Menu.printMenu
