@@ -1,4 +1,4 @@
-## Simple Banking Backend, a sbt project compiled with Scala 3
+## Simple Banking Backend, an sbt project compiled with Scala 3
 
 ### Usage
 
@@ -8,16 +8,26 @@ For more information on the sbt-dotty plugin, see the
 [scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
 
 
-### Description
-This is a rebuild of the simple banking system project I have previously built in Python.  This project will be written in Scala and Java with an SQLite database.  I will be using the SQLite API for Java because Java is a mature language thus should have good documentations for the API.
+### Project Description
+This project is a rebuild of the simple banking system project I previously built in Python two months ago.  This project will be written in mostly Scala and some Java (where support for Java API is more accessible).  I will be using the SQLite API for two reasons:
+1. I am still new to Scala3 and do not know many APIs for Scala3
+2. I want to practice interoperability between Scala and Java
 
-The system will consist of a SQLite database and a CLI to make queries and commits to the database.  In this project, I also would like to try learning and applying threading to this application by isolating queries to a separate thread.
+Java is a mature language; therefore, its documentations for SQLite integration should be much more abundant.
 
+This system will consist of an SQLite database and a CLI to make queries and commits to the database.  In this project, I also would like to try to apply multi-threading.  I plan to accomplish this by encapsulating interactions for each user into a session, which in turn can be run in its own separate thread.  The user of this system should be able to accomplish the following tasks:
+
+- Create a new account
+- Log in to an existing account
+- Exit from the program
+
+
+### Future Plan
 Once the prototype has taken form, I plan to develop and expand it further by replacing the SQLite API with PostgreSQL.
 
 
-### Tech stack
+### Tech Stack
 - Scala3
 - Java adopt@openJDK-1.11.0.11
-- SQLite
+- SQLite (API for Java)
 (Future: PostgreSQL)
