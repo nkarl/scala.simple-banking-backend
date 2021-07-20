@@ -10,15 +10,11 @@ def mockCLI: Unit =
 
 
 def printMenu: Unit =
-  println("""
------MENU BEGINS ----------------------
-  1. Create Account
-  2. Log In
-  0. Exit
------MENU ENDS ------------------------
-""")
-  //println("\nMENU STARTS HERE ----------------------")
-  //println("\t1. Create Account")
-  //println("\t2. Log In")
-  //println("\t3. Exit")
-  //println("MENU ENDS -----------------------------\n")
+  val menu = """
+    -----MENU BEGINS ----------------------
+    1. Create Account
+    2. Log In
+    0. Exit
+    -----MENU ENDS ------------------------
+    """.stripMargin
+  print(menu)
