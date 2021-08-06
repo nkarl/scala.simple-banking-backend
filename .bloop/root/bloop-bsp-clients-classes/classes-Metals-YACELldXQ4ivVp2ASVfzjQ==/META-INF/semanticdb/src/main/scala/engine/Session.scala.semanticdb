@@ -1,0 +1,44 @@
+
+™#src/main/scala/engine/Session.scala*
+engine/Session#*Session€*,
+engine/Session#`<init>`(). €@*<init>€*!
+engine/Session#run().*run€*
+local0 €*op€*
+local1*i€2
+ engine/2
+ scala/io/StdIn.2
+ scala/io/StdIn#2
+ 	scala/io/2
+ scala/2
+ engine/Menu/2
+ engine/2
+ engine/Session#2(
+ engine/Session#`<init>`().2#
+ 	engine/Session#run().2
+ scala/Unit#23
+	 %engine/Menu/Menu$package.printMenu().2
+ engine/Menu/2
+ 
+local02
+ local12
+ 
+scala/Int#2
+ local12&
+
+
+ scala/Function1#apply().2
+
+
+ local02'
+
+
+ scala/io/StdIn#readInt().2
+
+	
+ scala/io/StdIn.2'
+
+ scala/Predef.println(+1).2#
+ engine/Session#run().2'
+ scala/Predef.println(+1).2'
+ scala/Predef.println(+1).2#
+ scala/Predef.print().PZ 2773E45E6E00D2BA46978AD731ACA183
