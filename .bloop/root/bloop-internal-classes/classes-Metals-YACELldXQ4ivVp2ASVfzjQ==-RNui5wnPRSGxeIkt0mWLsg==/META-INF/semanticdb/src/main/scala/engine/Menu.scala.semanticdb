@@ -1,44 +1,0 @@
-
-Ð src/main/scala/engine/Menu.scala*(
-engine/Menu/Menu$package. *Menu€*3
-#engine/Menu/Menu$package.mockCLI().*mockCLI€*
-local0 €*max€*
-local1*x€*7
-%engine/Menu/Menu$package.printMenu().*	printMenu€*
-local2 €*menu€2
- engine/Menu/2
- engine/2 
- java/util/Scanner.2 
- java/util/Scanner#2
- 
-java/util/2
- java/2#
-engine/Menu/Menu$package.21
- #engine/Menu/Menu$package.mockCLI().2
- scala/Unit#2#
- scala/Predef.print().2
- 	local02*
-% ,java/util/Scanner#nextInt().2-
- java/util/Scanner#`<init>`(+2).2 
- java/util/Scanner#2"
-  "java/lang/System#in.2
- java/lang/System#2'
- 	scala/Predef.println(+1).2&
-N Oscala/StringContext#s().2*
- scala/StringContext.apply().2
-? Blocal025
- 'scala/collection/immutable/Range#map().2)
- scala/runtime/RichInt#to().26
- (scala/LowPriorityImplicits#intWrapper().2
- local02
- local12'
- scala/Predef.println(+1).2
- local123
- %engine/Menu/Menu$package.printMenu().2
- scala/Unit#2
- 
-local229
- +scala/collection/StringOps#stripMargin(+1).2+
- scala/Predef.augmentString().2#
- scala/Predef.print().2
- local2PZ AA5C41F57777E4E1146A428BFD28DBF2
