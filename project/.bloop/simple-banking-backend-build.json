@@ -199,7 +199,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Users\\KARL\\.jdks\\1.11",
+                "home": "C:\\Users\\KARL\\.jdks\\1.16",
                 "options": [
                     "-Duser.dir=C:\\Users\\KARL\\Dev\\test.LAB\\learn.scala\\projects\\simple-banking-backend\\project"
                 ]
