@@ -8,8 +8,8 @@ class Session:
     Menu.printMenu
     op(StdIn.readInt)
 
-  def op(i: Int): Boolean = i match
-    case 0 => println("Exiting program..."); return true
+  def op(i: Int): Unit = i match
+    case 0 => println("Exiting program...")
     case _ => i match
       case 1 => println("Creating new account...")
       case 2 => println("Logging into existing account...")
@@ -23,3 +23,4 @@ class Session:
         //case 1 => println("Creating new account...")
         //case 2 => println("Logging into existing account...")
         //case _ => print("Wrong input, choose again: ")
+
