@@ -18,12 +18,12 @@ class Session:
         case 2 => println("Logging into existing account...")
         case _ => print("Wrong input, choose again: ")
 
-  //@tailrec
-  //private def op(i: Int): Unit = i match
-    //case 0 => println("Exiting program...")
-    //case _ => i match
-      //case 1 => println("Creating new account...")
-      //case 2 => println("Logging into existing account...")
-      //case _ => print("Wrong input, choose again: "); Menu.printMenu
-      //op(StdIn.readInt)
+  @tailrec
+  private def op2(i: Int): Unit = i match
+    case 0 => println("Exiting program...")
+    case _ => i match
+      case 1 => println("Creating new account...")
+      case 2 => println("Logging into existing account...")
+      case _ => print("Wrong input, choose again: "); Menu.printMenu
+      op2(StdIn.readInt)
 
